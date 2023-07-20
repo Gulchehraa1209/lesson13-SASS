@@ -1,0 +1,29 @@
+$Bgcolor: rgb(118, 175, 118);
+$twocolor: rgb(163, 163, 163);
+$fontsize: 24px;
+.wrapper{
+    width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    .menu{
+        display: flex;
+        list-style: none;
+        padding: 1rem 3rem;
+        background-color: $Bgcolor;
+        li{
+            margin-right: 3rem;
+            a{
+                font-size: $fontsize;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #fff;
+                font-family: sans-serif;
+                padding: 1rem 0;
+                &:hover{
+                    background-color: $twocolor;
+                }
+            }
+        }
+    }
+}
